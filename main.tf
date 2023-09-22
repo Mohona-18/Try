@@ -4,7 +4,7 @@ resource "aws_instance" "ec2-instance" {
 
 	  key_name      = "win-demo-kp-1"
 	  tags= {
-	  Name= "Linux_Instance_Terraform"
+	  Name= "t_simple"
 	  }
 	  
 }
